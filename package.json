@@ -1,0 +1,26 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "clear && ./node_modules/nodemon/bin/nodemon.js bin/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alexander_andreiev94@bitbucket.org/alexander_andreiev94/music.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/alexander_andreiev94/music#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
