@@ -5,4 +5,4 @@ const schema = mongoose.Schema({});
 
 const model = mongoose.model('PlaylistSong', schema);
 
-module.exports = new ModelActions(model);
+module.exports = ModelActions(model);

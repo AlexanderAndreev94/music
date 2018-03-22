@@ -7,4 +7,4 @@ const schema = mongoose.Schema({
 
 const model = mongoose.model('User', schema);
 
-module.exports = new ModelActions(model);
+module.exports = ModelActions(model);
