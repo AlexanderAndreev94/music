@@ -18,10 +18,13 @@ const schema = mongoose.Schema({
         maxLength: 256,
         required: true
     },
+    role: Number,
+    status: Number,
     activationCode: {
         type: String,
         maxLength: 256
-    }
+    },
+    playlistCount: Number,
 });
 
 const model = mongoose.model('User', schema);
